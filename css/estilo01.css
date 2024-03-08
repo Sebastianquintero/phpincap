@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+}
+table{
+    border-color: greenyellow;
+    border-style: solid;
+    margin: auto;
+    width: 80%;
+    position: absolute;top: 250px;
+}
+table th{
+    border-radius:20px;
+    border-color: green;
+    border-style: solid;
+    background-color: goldenrod;
+    text-align: center;
+}
+table td
+{
+    border-radius: 20px;
+    border-color: greenyellow;
+    border-style: solid;
+    text-align: center;
+}
+#bot{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 50%;
+}
+#bot:hover
+{
+    background-color: chartreuse;
+    cursor: pointer;
+    box-shadow: orangered;
+}

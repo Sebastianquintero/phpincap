@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Factura</title>
+    <link rel="stylesheet" href="../css/estilo01.css">
+</head>
+<body>
+    <h1>pre-fatura</h1>
+    <table width="80%" class="hola">
+        <form action="calcfact.php" method="POST">
+            <tr><th>Nombre</th><td><input type="text" name="nom"></td></tr>
+            <tr><th>Telefono</th><td><input type="tel" name="tel"></td></tr>
+            <tr><th>Forma de Pago</th><td>Efectivo<input type="radio" name="rad1" value="efe"><br>Cheque <input type="radio" name="rad1" value="cheq"><br>Tarjeta <input type="radio" name="rad1" value="tar"></td></tr>
+            <tr><th>Producto</th><td><input type="text" name="prod"></td></tr>
+            <tr><th>Cantidad</th><td><input type="text" name="ca"></td></tr>
+            <tr><th>Vr Unitario</th><td><input type="text" name="vu"></td></tr>
+            <tr><th><input type="submit" value="CALCULAR" id="bot"></th><th><input type="reset" value="BORRAR" id="bot"></th></tr>
+        </form>
+    </table>
+</body>
+</html>
