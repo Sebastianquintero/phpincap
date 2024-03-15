@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomina</title>
+</head>
+<body>
+<form method="POST" action="liquidarnomina.php">
+    <table>
+        <tr><th>Empleado</th><td><input type="text" name="nom"></td></tr>
+        <tr><th>Salario</th><td><input type="text" name="sal"></td></tr>
+        <tr><th>Dias</th><td><input type="text" name="dias"></td></tr>
+        <tr><th>Cantidad Horas</th><td><input type="text" name="ch"></td></tr>
+        <tr><th>Tipo Horas</th><td><select name="thoras">
+            <option value="0">seleccione ...</option>
+            <option value="diurna">Diurnas</option>
+            <option value="noct">Nocturna</option>
+            <option value="fest">Festiva</option>
+            <option value="rec">Recargo Nocturno</option>
+        </select></td></tr>
+
+        <tr><th>Comisiones</th><td><input type="text" name="com"></td></tr>
+        <tr><th>Prestamos</th><td><input type="text" name="prest"></td></tr>
+        <tr><th><input type="submit" value="Liquidar"></th><th><input type="reset" value="BORRAR"></th></tr>
+    </table>
+</form>
+</body>
+</html>
