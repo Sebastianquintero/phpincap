@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cargo</title>
+</head>
+<body>
+    <table>
+        <form action="buscarcargo.php" method="POST">
+            <tr>
+                <th>Seleccione Opcion</th>
+                <td><select name="opc">
+                        <option value="cod">CODIGO</option>
+                        <option value="nom">NOMBRE</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>VALOR A BUSCAR</th>
+                <td><input type="text" name="busc"></td>
+            </tr>
+            <tr>
+                <th><input type="submit" name="BUSCAR"></th>
+                <th><input type="reset" name="BORRAR"></th>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
